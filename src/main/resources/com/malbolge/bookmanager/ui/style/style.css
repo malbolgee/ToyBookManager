@@ -1,0 +1,30 @@
+.jfx-button {
+    -fx-font-size: 13px;
+    -fx-font-family: 'Gotham Light';
+    -fx-font-fill: white;
+    -fx-text-fill: #165c7d;
+    -fx-font-weight: lighter;
+    -fx-background-radius: 10, 10, 10, 10;
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+    -fx-effect: dropshadow(gaussian, rgba(31, 38, 135, 0.37), 32/* blur radius*/, 0/* spread radius*/, 0/* x offset*/, 8 /* y offset*/);
+}
+
+.jfx-button:hover{
+    -fx-background-color: rgba(226, 226, 230, 0.25);
+}
+
+.jfx-button:pressed {
+    -fx-background-color: rgba(200, 200, 180, 0.25);
+}
+
+.jfx-text-field {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Gotham Light';
+    -fx-font-weight: lighter;
+    -fx-text-fill: #165C7D;
+    -fx-box-border: none;
+    -fx-focus-color: rgba(22, 92, 125, 0.60);
+    -fx-faint-focus-color: rgba(146, 193, 233, 0.25);
+    -fx-text-box-border: rgba(210, 210, 210, 0.25);
+    -fx-background-radius: 10, 10, 10, 10;
+}
